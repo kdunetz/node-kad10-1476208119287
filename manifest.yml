@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-kad10
+  host: node-kad10
+  disk_quota: 1024M
+  services:
+  - node-kad10-personality_insights
